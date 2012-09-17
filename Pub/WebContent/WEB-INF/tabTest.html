@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>纯JS网页TAB选项卡</title>
+<script type="text/javascript">
+function $(id){
+    return document.getElementById(id);
+}
+window.onload=function(){
+    var tabs = $("menus-tab"),
+    lis = tabs.getElementsByTagName("li"),
+    content = $("content"),
+    divs = content.getElementsByTagName("div"),
+    clearAllClass = function(arr,name){
+        var lens = arr.length,re = new RegExp(name,'gi');
+        for(var j = 0;j<lens;j++){
+            if(re.test(arr[j].className)){
+                arr[j].className = arr[j].className.replace(re,'');
+            }
+        }
+        return arr;
+    },
+    addClass = function(o,name){
+        var re = new RegExp(name,'gi');
+        if (!re.test(o.className)) o.className += " "+name;
+        return o;
+    };
+    for(var i=0 ,len=lis.length;i<len;i++){
+        ~function(a){
+            lis[a].onclick = function(){
+                addClass(clearAllClass(lis,'on')[a],'on');
+                addClass(clearAllClass(divs,'show')[a],'show');
+            }
+        }(i);
+    }
+}    
+</script>
+<style type="text/css">
+*{margin:0;padding:0;}
+body{font:12px Verdana, Arial, Helvetica, sans-serif;}
+ul{list-style:none;}
+#tab{margin:20px auto;padding:10px;width:330px;border:1px solid #ccc;}
+#tab ul{overflow:hidden;zoom:1;}
+#tab li{float:left;margin-right:8px;width:100px;height:18px;line-height:18px;border:1px solid red;border-bottom:0;cursor:pointer;text-align:center;}
+#tab li.on{background:#fc0; color:000;}
+#content{border:1px solid #666;}
+#content div{padding:10px;display:none;}
+#content div.show{display:block;}
+</style>
+</head>
+<body>
+<div id="tab">
+    <ul id="menus-tab">
+        <li class="on">tab1</li>
+        <li>tab2</li>
+        <li>tab3</li>
+    </ul>
+    <div id="content">
+        <div class="show">A</div>
+        <div>B</div>
+        <div>C</div>
+    </div>
+</div>
+</body>
+</html>	

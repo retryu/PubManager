@@ -1,0 +1,32 @@
+.select {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 15%;
+    background-color: #F3F3F3;
+    padding: 7px 7px 6px 7px;
+    font: bold 11px Arial;
+    color: #444;
+    border: 1px solid #CCC;
+    background-image: -webkit-linear-gradient(top,#fefefe,#f3f3f3);
+
+
+background-image: -moz-linear-gradient(top,#fefefe,#f3f3f3);
+cursor: pointer;
+min-width: 18px;
+margin-right: -1px;
+text-align: center;
+border-image: initial;
+ }
+.selectbox{
+	width:1000px;
+	height:40px;
+}
+.activity{
+	background-color: #DFDFDF;
+background-image: -webkit-linear-gradient(top,#f0f0f0,#dfdfdf);
+background-image: -moz-linear-gradient(top,#f0f0f0,#dfdfdf);
+border-color: #CCC;
+box-shadow: inset 0px 1px 5px rgba(0,0,0,.3);
+color: #222;
+}

@@ -1,0 +1,1095 @@
+2012-09-12 00:16:51 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:16:51 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:16:51 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:16:51 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bb0d0d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:16:51 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:16:51 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:16:51 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:16:51 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:16:51 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:16:51 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:16:52 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:16:52 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:16:52 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:16:52 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:16:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:17:08 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:17:08 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:17:08 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:17:08 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:17:09 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:17:09 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:17:09 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:17:09 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:17:09 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:17:09 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:17:09 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:17:09 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:17:09 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:17:09 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:17:10 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:17:31 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:17:31 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:17:31 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:17:31 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bb0d0d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:17:31 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:17:31 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:17:31 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:17:31 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:17:31 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:17:31 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:17:32 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:17:32 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:17:32 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:17:32 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:17:32 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:17:33 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:17:33 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, check_in datetime, check_out datetime, deposit integer not null, room_id_id integer, user_id_id integer, primary key (id))
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        check_in datetime,
+ ' at line 1
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: alter table Order add index FK48E972EB8C71768 (user_id_id), add constraint FK48E972EB8C71768 foreign key (user_id_id) references User (id)
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order 
+        add index FK48E972EB8C71768 (user_id_id), 
+        add constraint' at line 1
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: alter table Order add index FK48E972E91243588 (room_id_id), add constraint FK48E972E91243588 foreign key (room_id_id) references Room (id)
+2012-09-12 00:17:33 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order 
+        add index FK48E972E91243588 (room_id_id), 
+        add constraint' at line 1
+2012-09-12 00:17:33 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:17:33 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:17:33 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (check_in, check_out, deposit, room_id_id, user_id_id) values ('2012-09-12' at line 1
+2012-09-12 00:20:37 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:20:37 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:20:37 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:20:37 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:20:38 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:20:38 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:20:38 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:20:38 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:20:38 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:20:38 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:20:38 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:21:40 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:21:40 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:21:40 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:21:40 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:21:40 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:21:40 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:21:40 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:21:40 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:21:40 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:21:40 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:21:41 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:22:17 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:22:17 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:22:17 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:22:18 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:22:18 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:22:18 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:22:18 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:22:18 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:22:18 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:22:18 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:22:19 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:22:19 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:22:19 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:22:19 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:22:19 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:22:19 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:22:19 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, deposit integer not null, primary key (id))
+2012-09-12 00:22:19 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        deposit integer not ' at line 1
+2012-09-12 00:22:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:22:19 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:22:19 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (deposit) values (0)' at line 1
+2012-09-12 00:23:39 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@df8ff1: startup date [Wed Sep 12 00:23:39 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:23:39 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:23:40 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:23:40 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:23:40 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:23:40 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:23:40 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:23:40 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:23:40 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:23:40 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:23:40 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:23:40 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:23:40 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:23:41 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:23:41 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:23:41 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, deposit integer not null, primary key (id))
+2012-09-12 00:23:41 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        deposit integer not ' at line 1
+2012-09-12 00:23:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:23:41 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:23:41 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (deposit) values (0)' at line 1
+2012-09-12 00:23:47 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:23:47 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:23:47 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:23:48 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:23:48 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:23:48 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:23:48 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:23:48 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:23:48 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:23:48 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:23:49 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:23:49 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:23:49 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:23:49 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:23:49 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:23:49 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:23:49 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, deposit integer not null, primary key (id))
+2012-09-12 00:23:49 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        deposit integer not ' at line 1
+2012-09-12 00:23:49 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:23:49 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:23:49 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (deposit) values (0)' at line 1
+2012-09-12 00:24:43 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:24:43 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:24:43 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:24:43 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:24:44 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:24:44 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:24:44 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:24:44 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:24:44 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:24:44 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:24:44 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:24:44 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:24:44 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:24:44 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:24:44 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:24:44 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:24:44 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, deposit integer not null, primary key (id))
+2012-09-12 00:24:44 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        deposit integer not ' at line 1
+2012-09-12 00:24:44 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:24:45 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:24:45 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (deposit) values (0)' at line 1
+2012-09-12 00:26:29 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:26:29 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:26:29 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:26:29 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:26:29 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:26:29 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:26:29 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:26:29 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:26:29 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:26:29 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:26:30 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:26:30 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:26:30 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:26:30 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:26:30 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:26:30 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: Order
+2012-09-12 00:26:30 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000388: Unsuccessful: create table Order (id integer not null auto_increment, deposit integer not null, primary key (id))
+2012-09-12 00:26:30 ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (
+        id integer not null auto_increment,
+        deposit integer not ' at line 1
+2012-09-12 00:26:30 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:26:30 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1064, SQLState: 42000
+2012-09-12 00:26:30 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order (deposit) values (2)' at line 1
+2012-09-12 00:27:08 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:27:08 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:27:08 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:27:08 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:27:08 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:27:08 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:27:08 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:27:08 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:27:09 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:27:09 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:27:09 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:27:09 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:27:09 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:27:09 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:27:09 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: t_order
+2012-09-12 00:27:09 INFO  java.sql.DatabaseMetaData     - HHH000262: Table not found: t_order
+2012-09-12 00:27:09 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:27:35 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:27:35 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:27:35 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:27:35 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:27:35 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:27:35 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:27:35 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:27:35 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:27:35 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:27:35 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:27:35 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:28:36 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c39a2d: startup date [Wed Sep 12 00:28:36 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:28:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:28:37 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:28:37 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:28:37 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:28:37 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:28:37 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:28:37 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:28:37 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:28:37 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@da4b71: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:29:40 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:29:40 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:29:40 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:29:40 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:29:41 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:29:41 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:29:41 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:29:41 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:29:41 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:29:41 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:29:41 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:29:41 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:29:41 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:29:41 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit]
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:29:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:29:42 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:30:53 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:30:53 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:30:53 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:30:53 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:30:53 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:30:53 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:30:53 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:30:53 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:30:53 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:30:53 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:30:54 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:30:54 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:30:54 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:30:54 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, room_id]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary]
+2012-09-12 00:30:54 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:31:59 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:31:59 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:31:59 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:31:59 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:32:00 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:32:00 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:32:00 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:32:00 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:32:00 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:32:00 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:32:00 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:32:00 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:32:00 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:32:00 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, room_id, user_id]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:32:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:32:21 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:32:21 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:32:22 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:32:22 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:32:22 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:32:22 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:32:22 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:32:22 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:32:22 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:32:22 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:32:23 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:32:23 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:32:23 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:32:23 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, room_id, user_id]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:32:23 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:34:55 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:34:55 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:34:55 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:34:56 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:34:56 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:34:56 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:34:56 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:34:56 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:34:56 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:34:56 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:34:56 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:34:56 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:34:56 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:34:56 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, room_id, user_id]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:34:57 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:35:21 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:35:21 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:35:22 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:35:22 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:35:22 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:35:23 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:35:23 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:35:23 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:35:23 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:35:23 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:35:23 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:35:23 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:35:23 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:35:23 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:35:24 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:41:53 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:41:53 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:41:53 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:41:54 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:41:54 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:41:54 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:41:54 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:41:54 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:41:54 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:41:54 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:41:54 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:41:54 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:41:54 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:41:54 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:41:55 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:42:16 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:42:16 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:42:17 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:42:17 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:42:17 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:42:17 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:42:17 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:42:17 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:42:17 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:42:17 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:42:18 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:42:18 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:42:18 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:42:18 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:42:18 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:42:18 INFO  org.hibernate.event.internal.DefaultDeleteEventListener     - HHH000114: Handling transient entity in delete processing
+2012-09-12 00:42:39 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bf2d5e: startup date [Wed Sep 12 00:42:39 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:42:39 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:42:40 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bb0d0d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:42:40 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:42:40 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:42:40 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:42:40 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:42:40 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:42:40 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:42:40 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:42:40 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:42:40 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:42:40 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:42:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 00:44:33 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 00:44:33 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 00:44:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 00:44:34 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 00:44:34 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 00:44:34 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 00:44:34 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 00:44:34 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 00:44:34 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 00:44:34 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 00:44:35 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 00:44:35 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 00:44:35 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 00:44:35 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 00:44:35 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:13:36 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:13:36 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:13:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:13:36 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:13:36 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:13:36 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:13:36 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:13:36 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:13:36 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:13:37 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Activity.hbm.xml
+2012-09-12 11:13:37 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:13:37 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Member.hbm.xml
+2012-09-12 11:13:37 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:13:37 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Serve.hbm.xml
+2012-09-12 11:13:37 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:13:37 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:13:37 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:13:37 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:13:37 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:13:37 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.activity
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [activity_id, end_time, activity_status, activity_title, start_time, activity_content, activity_bigimg, activity_smallimg]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.member
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [member_birthday, member_national, member_key, member_token, member_name, member_grand, member_integral, member_sex, member_id]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.serve
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [serve_type, serve_state, serve_id, data_5, data_2, data_1, data_4, data_3, serve_time, member_id]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:13:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:14:11 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:14:11 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:14:11 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:14:11 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:14:11 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:14:11 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:14:11 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:14:12 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:14:12 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:14:12 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:14:12 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:14:12 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:14:12 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:14:12 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:14:12 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:14:40 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:14:40 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:14:40 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:14:40 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d9660d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:14:40 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:14:40 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:14:40 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:14:40 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:14:40 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:14:40 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:14:41 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:14:41 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:14:41 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:14:41 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:14:41 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:14:50 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:14:50 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:14:51 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:14:51 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:14:51 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:14:51 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:14:51 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:14:51 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:14:51 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:14:51 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:14:52 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:14:52 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:14:52 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:14:52 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:14:52 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:15:49 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:15:49 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:15:49 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:15:50 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:15:50 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:15:50 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:15:50 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:15:50 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:15:50 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:15:50 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:15:50 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:15:50 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:15:50 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:15:50 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:15:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:15:51 ERROR org.hibernate.hql.internal.ast.ErrorCounter     - line 1:19: unexpected token: null
+2012-09-12 11:15:51 ERROR org.hibernate.hql.internal.ast.ErrorCounter     - line 1:19: unexpected token: null
+line 1:19: unexpected token: null
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2355)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2259)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2224)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2010)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1786)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:452)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:706)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at com.Dao.Impl.RoomDaoImp.findByHql(RoomDaoImp.java:88)
+	at test.RoomDaotest.testFindByHQL(RoomDaotest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-12 11:16:36 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:16:36 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:16:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:16:36 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:16:36 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:16:36 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:16:36 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:16:36 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:16:36 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:16:36 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:16:37 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:16:37 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:16:37 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:16:37 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:16:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:17:14 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:17:14 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:17:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:17:14 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:17:15 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:17:15 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:17:15 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:17:15 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:17:15 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:17:15 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:17:15 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:17:15 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:17:15 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:17:15 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:17:15 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:18:17 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:18:17 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:18:17 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:18:18 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:18:18 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:18:18 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:18:18 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:18:18 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:18:18 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:18:18 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:18:19 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:18:19 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:18:19 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:18:19 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:18:19 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:18:35 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:18:35 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:18:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:18:36 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:18:36 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:18:36 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:18:36 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:18:36 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:18:36 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:18:36 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:18:37 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:18:37 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:18:37 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:18:37 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:18:37 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:19:32 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:19:32 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:19:32 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:19:33 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:19:33 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:19:33 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:19:33 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:19:33 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:19:33 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:19:33 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:19:34 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:19:34 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:19:34 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:19:34 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:19:34 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:19:59 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:19:59 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:19:59 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:19:59 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:20:00 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:20:00 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:20:00 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:20:00 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:20:00 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:20:00 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:20:00 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:20:00 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:20:00 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:20:00 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:20:00 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:20:57 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13bad12: startup date [Wed Sep 12 11:20:57 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:20:57 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:20:57 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18f1d7e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:20:57 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:20:57 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:20:57 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:20:57 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:20:57 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:20:57 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:20:58 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:20:58 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:20:58 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:20:58 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:20:58 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:47:49 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1971afc: startup date [Wed Sep 12 11:47:49 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:47:49 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:47:50 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e0ebb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:47:50 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:47:50 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Activity.hbm.xml
+2012-09-12 11:47:50 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Serve.hbm.xml
+2012-09-12 11:47:50 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:47:50 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:47:50 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:47:51 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:47:51 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:47:51 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.activity
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [activity_id, end_time, activity_status, activity_title, start_time, activity_content, activity_bigimg, activity_smallimg]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.member
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [member_birthday, member_national, member_key, member_token, member_name, member_grand, member_integral, member_sex, member_id]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.serve
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [serve_type, serve_state, serve_id, data_5, data_2, data_1, data_4, data_3, serve_time, member_id]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:47:51 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:48:37 INFO  org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@750159: startup date [Wed Sep 12 11:48:37 GMT+08:00 2012]; root of context hierarchy
+2012-09-12 11:48:37 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [appcontext.xml]
+2012-09-12 11:48:38 INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15093f1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,myDataSource,sessionFactory,DBUtil,DBinsert,DBdelete,DBupdate,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2012-09-12 11:48:38 INFO  org.hibernate.annotations.common.Version     - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2012-09-12 11:48:38 INFO  org.hibernate.Version     - HHH000412: Hibernate Core {4.1.6.Final}
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Environment     - HHH000206: hibernate.properties not found
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Environment     - HHH000021: Bytecode provider name : javassist
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Configuration     - HHH000044: Configuring from URL: file:/F:/ubuntuOWorkspace/PubManager/build/classes/hibernate.cfg.xml
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Activity.hbm.xml
+2012-09-12 11:48:38 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Configuration     - HHH000221: Reading mappings from resource: com/model/Serve.hbm.xml
+2012-09-12 11:48:38 WARN  org.hibernate.internal.util.xml.DTDEntityResolver     - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2012-09-12 11:48:38 INFO  org.hibernate.cfg.Configuration     - HHH000041: Configured SessionFactory: null
+2012-09-12 11:48:38 INFO  org.hibernate.dialect.Dialect     - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2012-09-12 11:48:38 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder     - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2012-09-12 11:48:39 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator     - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2012-09-12 11:48:39 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory     - HHH000397: Using ASTQueryTranslatorFactory
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000228: Running hbm2ddl schema update
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000102: Fetching database metadata
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000396: Updating schema
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.activity
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [activity_id, end_time, activity_status, activity_title, start_time, activity_content, activity_bigimg, activity_smallimg]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.member
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [member_birthday, member_national, member_key, member_token, member_name, member_grand, member_integral, member_sex, member_id]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.room
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, state, number, type, flooor]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.serve
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [serve_type, serve_state, serve_id, data_5, data_2, data_1, data_4, data_3, serve_time, member_id]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.user
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, sex, name, age, room_id, type, note]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: []
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [primary]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000261: Table found: hibernate.t_order
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000037: Columns: [id, deposit, check_out, check_in, room_id, user_id]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000108: Foreign keys: [fka0c0c3c39846962c, fka0c0c3c33d43702c]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.TableMetadata     - HHH000126: Indexes: [fka0c0c3c39846962c, primary, fka0c0c3c33d43702c]
+2012-09-12 11:48:39 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate     - HHH000232: Schema update complete
+2012-09-12 11:48:39 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - SQL Error: 1364, SQLState: HY000
+2012-09-12 11:48:39 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper     - Field 'member_id' doesn't have a default value

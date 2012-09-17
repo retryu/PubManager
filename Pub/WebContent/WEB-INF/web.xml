@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+ version="2.5">
+    <context-param>
+        <param-name>
+            contextConfigLocation
+        </param-name>
+        <param-value>
+            /WEB-INF/appcontext.xml
+        </param-value>
+    </context-param>
+    
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+	
+		<servlet>
+		<servlet-name>ManageServlet</servlet-name>
+		 <servlet-class>com.servelet.ServletManager</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>ManageServlet</servlet-name>
+        <url-pattern>/ManageServlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RoomServlet</servlet-name>
+		 <servlet-class>com.servelet.RoomServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>RoomServlet</servlet-name>
+        <url-pattern>/room</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	
+		<servlet>
+		<servlet-name>registMember</servlet-name>
+		 <servlet-class>com.servelet.registMember</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>registMember</servlet-name>
+        <url-pattern>/registMember</url-pattern>
+    </servlet-mapping>
+	
+		<servlet>
+		<servlet-name>refershServlet</servlet-name>
+		 <servlet-class>com.servelet.RefershServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>refershServlet</servlet-name>
+        <url-pattern>/refershServlet</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>serveManager</servlet-name>
+		 <servlet-class>com.servelet.ServeManager</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>serveManager</servlet-name>
+        <url-pattern>/serveManager</url-pattern>
+    </servlet-mapping>
+    
+    
+    	
+	<servlet>
+		<servlet-name>dictionaryServlet</servlet-name>
+		 <servlet-class>com.servelet.DictionaryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		  <servlet-name>dictionaryServlet</servlet-name>
+        <url-pattern>/dictionaryServlet</url-pattern>
+    </servlet-mapping>
+        
+    	
+ 
+    
+    
+	
+	
+	
+	
+<servlet>
+  <display-name>DWR Servlet</display-name>
+  <servlet-name>dwr-invoker</servlet-name>
+  <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+  <init-param>
+    <param-name>activeReverseAjaxEnabled</param-name>
+    <param-value>true</param-value>
+  </init-param>
+  <init-param>
+     <param-name>debug</param-name>
+     <param-value>true</param-value>
+  </init-param>
+</servlet>
+<servlet-mapping>
+  <servlet-name>dwr-invoker</servlet-name>
+  <url-pattern>/dwr/*</url-pattern>
+</servlet-mapping>
+	
+	
+	
+	
+	   
+	
+	     
+    <welcome-file-list>
+				<welcome-file>
+           /login.jsp
+        </welcome-file>
+    </welcome-file-list>
+    
+</web-app>

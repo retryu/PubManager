@@ -1,0 +1,95 @@
+.stepintro {
+    color: gray;
+    font-size: 20px;
+}
+
+lable {
+    color: #333;
+}
+
+.body {
+    background-color: black;
+    font- color: #333;
+    font-size:
+    13px;
+}
+
+.activitytext {
+    width: 300px;
+    height: 300px;
+	cols:100%;
+	rows:100%;
+}
+
+.launch {
+    float: left;
+	margin-left:0px;
+}
+
+.showphone {
+    height: 570px;
+    width: 314px;
+    float: left;
+    background-image: url('../images/phonebg.png');
+}
+.showphone2 {
+    height: 570px;
+    width: 314px;
+    float: left;
+    background-image: url('../images/phonebg2.png');
+}
+
+.phonecontent {
+	  width: 314px;
+    padding-top: 170px;
+    padding-left: 40px;
+}
+.phonetitle{
+	position: absolute;
+	   width: 314px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+#phoneimg {
+    width: 50px;
+	height:50px;
+}
+
+ 
+
+.pushButton {
+	color:white;
+    border: 1px solid #507E0C;
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: #96C742;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.ui-icon, .ui-dialog-titlebar-close .ui-icon {
+background-color: red;
+}
+
+.phonefont{
+	display:block;
+	width:100px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #444;
+}
+.showtab{display:block;}
+

@@ -1,0 +1,90 @@
+.roomdialog {
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 200px;
+	width: 400px;
+	height: 500px;
+	z-index: 10;
+	display: none;
+}
+
+.inputlable {
+	margin-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.action {
+	color: white;
+	border: 1px solid #507E0C;
+	width: 50px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	background-color: #96C742;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.action:hover{
+	color: white;
+	border: 1px solid #507E0C;
+	width: 50px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	background-color: #6aa800;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+.unUpdateInput{
+	color:#FFFFFF
+	background: #ffffff;
+	width: 50px;
+	color: #6aa800;
+	border-bottom: 0px solid #6aa800;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: transparent;
+}
+.unUpdateInput_1{
+	width: 120px;
+	color: #6aa800;
+	border-bottom: 0px solid #6aa800;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: transparent;
+}
+.content_div{
+	padding-left:30px;
+	padding-top: 10px;
+	
+	}
+.dialog_input{
+	width: 110px;
+	border-bottom: 1px solid #ccc;
+	border-top: 0px;
+	border-left: 5px;
+	border-right: 5px;
+	background-color: transparent;
+		text-align:center
+	}	
+.warning_lable{
+	padding-left: 30px;
+	color:fe0000;
+}
+.member_info{
+	
+	
+	}
+

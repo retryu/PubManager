@@ -1,0 +1,112 @@
+.refSelectDiv {
+    width: 300px;
+}
+
+.selectDiv {
+    float: left;
+    padding: 40px;
+    background: #FDFDFD;
+}
+
+.sectionSelectDiv {
+    padding: 20px;
+    width: 300px;
+    float: right;
+}
+
+.dateul {
+    padding-right: 20px;
+    list-style: none;
+    height: 29px;
+    font-size: 13px;
+}
+
+.dateli {
+    display: block;
+    float: right;
+    margin: 0;
+    background-color: #F3F3F3;
+    padding: 7px 7px 6px 7px;
+    font: bold 11px Arial;
+    color: #444;
+    border: 1px solid #CCC;
+    background-image: -webkit-linear-gradient(top,#fefefe,#f3f3f3);
+
+	background-image: -moz-linear-gradient(top,#fefefe,#f3f3f3);
+	cursor: pointer;
+	min-width: 18px;
+	margin-right: -1px;
+	text-align: center;
+	border-image: initial;
+}
+.dateli:hover{
+	 box-shadow: inset 0px 1px 5px rgba(0,0,0,.3);
+}
+.liactivity{
+	 
+	background-color: #DFDFDF;
+	background-image: -webkit-linear-gradient(top,#f0f0f0,#dfdfdf);
+	background-image: -moz-linear-gradient(top,#f0f0f0,#dfdfdf);
+	border-color: #CCC;
+	box-shadow: inset 0px 1px 5px rgba(0,0,0,.3);
+	color: #222;
+}
+.refSelction{
+	background-color: #F3F3F3;
+	background-image: -webkit-linear-gradient(top,#fefefe,#f3f3f3);
+	background-image: -moz-linear-gradient(top,#fefefe,#f3f3f3);
+	border: 1px solid #CCC;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #444;
+	cursor: pointer;
+	font: bold 11px Arial;
+	margin-right: -1px;
+	min-width: 18px;
+	padding: 7px 7px 6px 7px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #F2F2F2;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-image: initial;
+}
+.refSelction:hover{
+		 box-shadow: inset 0px 1px 5px rgba(0,0,0,.3);
+}
+.dateinput{
+border: 1px solid #CCC;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #444;
+cursor: pointer;
+font: bold 11px Arial;
+margin-right: -1px;
+min-width: 15px;
+padding: 7px 7px 6px 7px;
+text-align: center;
+text-decoration: none;
+text-shadow: 0 1px 0 #F2F2F2;
+vertical-align: middle;
+white-space: nowrap;
+border-image: initial;
+width:100px;
+}
+.statisticsTh{
+	border-right:1px solid #EAEAEA;
+	padding:10px;
+	width:50px;
+}
+.statisticsTd{
+	border-bottom:1px solid #EAEAEA;
+}
+
+.statisticsTable{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #3E576F;
+}
+ 
+

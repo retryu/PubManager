@@ -1,0 +1,16 @@
+#news-feed{
+position: relative;
+height: 200px;
+width: 17em;
+overflow:hidden;
+}
+.headline{
+position:absolute;
+height: 200px;
+top:210px;
+overflow:hidden;
+}
+body{
+
+
+}

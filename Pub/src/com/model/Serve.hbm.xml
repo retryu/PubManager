@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.auction">
+    <class name="com.model.Serve" table="Serve">
+        <id name="serve_id" type="java.lang.Integer"> 
+		<generator class="increment"/>
+		</id>
+        <property name="serve_type"   column="`serve_type`"/>
+		 <property name="serve_state" column="`serve_state`"/>
+		 <property name="serve_time" column="`serve_time`"/>
+		   <property name="data_1" column="`data_1`"/>
+		   <property name="data_2" column="`data_2`"/>
+		   <property name="data_3" column="`data_3`"/>
+		   <property name="data_4" column="`data_4`"/>
+		   <property name="data_5" column="`data_5`"/>
+ 		 	<property name="member_id" column="`member_id`"/>
+      
+    </class>
+</hibernate-mapping>

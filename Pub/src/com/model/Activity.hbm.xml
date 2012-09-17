@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.auction">
+    <class name="com.model.Activity" table="Activity">
+        <id name="activity_id" type="java.lang.Integer"> 
+		<generator class="increment"/>
+		</id>
+        <property name="activity_title" not-null="true"   column="`activity_title`"/>
+        <property name="activity_smallImg" not-null="true"  column="`activity_smallImg`"/>
+		   <property name="activity_bigImg" not-null="true"  column="`activity_bigImg`"/>
+     	<property  name="activity_status"   column="`activity_status`"/>
+		<property name="activity_content"  column="`activity_content`"/>
+		<property name="start_time"  column="`start_time`"/>
+		<property name="end_time"  column="`end_time`"/>
+    </class>
+</hibernate-mapping>

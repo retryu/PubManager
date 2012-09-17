@@ -1,0 +1,14 @@
+#Mon Sep 17 14:11:16 GMT+08:00 2012
+eclipse.preferences.version=1
+encoding//WebContent/login.jsp=UTF-8
+encoding//WebContent/test/test.jsp=UTF-8
+encoding//src/com/model/Serve.java=UTF-8
+encoding//src/com/servelet/Push2Iphone.java=UTF-8
+encoding//src/com/servelet/Remote.java=UTF-8
+encoding//src/com/servelet/RoomServlet.java=utf-8
+encoding//src/com/servelet/ServeManager.java=UTF-8
+encoding//src/com/servelet/ServletManager.java=UTF-8
+encoding//src/com/servelet/registMember.java=UTF-8
+encoding//src/com/util/ServeUtil.java=UTF-8
+encoding//src/com/util/resolvingsearch.java=UTF-8
+encoding/<project>=UTF-8

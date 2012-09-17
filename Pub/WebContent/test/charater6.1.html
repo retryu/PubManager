@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="character6.1.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<script src="jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+			$('#letter-a').click(function(){
+				// $.getJSON('http://183.129.54.96:8080/PubManager/dictionaryServlet',function(data){
+					// $('#dictionary').empty();
+					// $.each(data,function(entryIndex,entry){
+					// // alert("entry[term]"+entry['term']);
+					// // alert("entry[defintion]"+entry['definition']);
+					// // alert("entry[part]"+entry['part']);
+					// // alert("entry[quote]"+entry['quote']);
+					// // alert("test  termindex:"+entryIndex+"entry['term']"+entry['term']);
+						// var  html='<div  class="entry">';
+						// html+='<h3  class="term">'+entry['term']+'</h3>';
+						// html+='<div  class="part">'+entry['part']+'</div>';
+						// html+='<div  class="definition">'+entry['definition']+"</div>";
+						// if(entry['quote']){
+							// html+='<div  class="quote">';
+// 							
+							// $.each(entry['quote'],function(lineIndex,line){
+								// html+='<div  class="quote-line">'+line+"</div>";
+							// });
+							// html+="</div>";
+						// };
+// 						
+						// if(entry['author']){
+								// html+='<div  class="quote-author">'+entry['author']+'</div>';
+							// }
+// 
+						// html+='</div>';
+						// $('#dictionary').append(html).fadeIn();
+// 						
+					// });
+// 					
+// 					
+				// });
+				
+				
+				// $.get('http://183.129.54.96:8080/PubManager/dictionaryServlet',function(data){
+					// $('#dictionary').hide().html(data).fadeIn();
+				// });
+				
+				
+				$.ajax({url:'http://183.129.54.96:8080/PubManager/dictionaryServlet',
+					success:function(data,status){
+						alert('data'+data+"status"+status);
+					}
+				})
+			})
+
+	});
+</script>
+
+
+</head>
+<body>
+<div class="letters">
+        <div class="letter" id="letter-a">
+          <h3><a href="#">A</a></h3>
+          <div  class="button">Load</div>
+        </div>
+        <div class="letter" id="letter-b">
+          <h3><a href="#">B</a></h3>
+            <div  class="button">Load</div>
+        </div>
+        <div class="letter" id="letter-c">
+          <h3><a href="#">C</a></h3>
+            <div  class="button">Load</div>
+        </div>
+        <div class="letter" id="letter-d">
+          <h3><a href="#">D</a></h3>
+            <div  class="button">Load</div>
+        </div>
+        <div class="letter" id="letter-e">
+          <h3>E</h3>
+          <ul>
+            <li><a href="e.php?term=Eavesdrop">Eavesdrop</a></li>
+            <li><a href="e.php?term=Edible">Edible</a></li>
+            <li><a href="e.php?term=Education">Education</a></li>
+            <li><a href="e.php?term=Eloquence">Eloquence</a></li>
+            <li><a href="e.php?term=Elysium">Elysium</a></li>
+            <li><a href="e.php?term=Emancipation">Emancipation</a></li>
+            <li><a href="e.php?term=Emotion">Emotion</a></li>
+            <li><a href="e.php?term=Envelope">Envelope</a></li>
+            <li><a href="e.php?term=Envy">Envy</a></li>
+            <li><a href="e.php?term=Epitaph">Epitaph</a></li>
+            <li><a href="e.php?term=Evangelist">Evangelist</a></li>
+          </ul>
+        </div>
+        <div class="letter" id="letter-f">
+          <h3>F</h3>
+          <form>
+            <input type="text" name="term" value="" id="term">
+            <input type="submit" name="search" value="search" id="search">
+          </form>
+        </div>
+        <div class="letter" id="letter-g">
+          <h3><a href="#">G</a></h3>
+        </div>
+        <div class="letter" id="letter-h">
+          <h3><a href="h.html">H</a></h3>
+        </div>
+          
+      </div>
+      
+      <div id="loading" style="display: none; ">Loading...</div>
+      <div id="dictionary"> </div>
+</body>
+</html>

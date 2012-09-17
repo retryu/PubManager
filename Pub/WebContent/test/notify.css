@@ -1,0 +1,19 @@
+.notify {
+    position: absolute;
+    display: block;
+    min-width: 12px;
+    height: 16px;
+    padding: 0 2px;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    background-color: #C00;
+    top: -4px;
+    left: 75%;
+    z-index: 2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
