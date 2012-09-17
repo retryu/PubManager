@@ -14,3 +14,4 @@ public interface RoomDao {
 	public  int  getCount(String  hql);
 	
 }
+  

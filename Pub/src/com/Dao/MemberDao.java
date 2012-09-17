@@ -12,4 +12,4 @@ public interface MemberDao {
 	public  List<Member>  findMembersByHQL(String   hsql);
    
 }
- 
+   
